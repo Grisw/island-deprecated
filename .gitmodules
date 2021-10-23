@@ -1,0 +1,9 @@
+[submodule "eureka-server"]
+	path = eureka-server
+	url = git@github.com:Grisw/eureka-server.git
+[submodule "icloud-fmf-server"]
+	path = icloud-fmf-server
+	url = git@github.com:Grisw/icloud-fmf-server.git
+[submodule "icloud-server"]
+	path = icloud-server
+	url = git@github.com:Grisw/icloud-server.git
