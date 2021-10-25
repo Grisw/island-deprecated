@@ -13,6 +13,7 @@
         <module>eureka-server</module>
         <module>icloud-fmf-server</module>
         <module>icloud-server</module>
+        <module>common</module>
     </modules>
 
     <properties>
