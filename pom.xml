@@ -24,6 +24,7 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
         <target.dir>E:/IdeaProjects/island/target/dist</target.dir>
+        <redisson.version>3.16.3</redisson.version>
     </properties>
 
     <parent>

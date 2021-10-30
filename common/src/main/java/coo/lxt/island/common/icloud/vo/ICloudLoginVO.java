@@ -1,13 +1,15 @@
 package coo.lxt.island.common.icloud.vo;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotBlank;
 import java.util.ArrayList;
 import java.util.List;
 
 @Data
-public class ICloudAuthVO {
+@NoArgsConstructor
+public class ICloudLoginVO {
 
     @NotBlank
     private String accountName;
@@ -19,7 +21,7 @@ public class ICloudAuthVO {
 
     private List<String> trustTokens;
 
-    public ICloudAuthVO(String accountName, String password) {
+    public ICloudLoginVO(String accountName, String password) {
         this.accountName = accountName;
         this.password = password;
         this.rememberMe = true;
